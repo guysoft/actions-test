@@ -16,7 +16,7 @@ jobs:
         run: |
           mkdir os_list
           cd os_list
-          wget https://downloads.raspberrypi.org/os_list_imagingutility_v2.json -o
+          wget https://downloads.raspberrypi.org/os_list_imagingutility_v2.json
           ls -l 
 
       - name: Deploy 🚀
